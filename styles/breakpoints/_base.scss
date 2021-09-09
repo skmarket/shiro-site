@@ -116,6 +116,8 @@ main {
     justify-content: center;
   }
 
+
+
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -176,7 +178,19 @@ main {
   &__world {
     color: $cWineRed;
   }
+
+  &__stay > a {
+    text-decoration:none;
+    color:black;
+  }
+
 }
+
+.mobile-logo__stay{
+  @extend .font-lg
+}
+
+
 
 .footer {
   padding: 60px 0;
@@ -258,27 +272,44 @@ main {
   }
 }
 
-.icon {
+// ------------------------------------
+.btn {
   position: relative;
-
-  @include p-base($left: -20px, $top: 50%, $width: 1em, $height: 1em) {
-    transform: translateY(-50%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  &.twitter{
-    &::before {
-      background-image: url(../images/twitter.svg);
-    }
-  }
-  &.fb{
-    &::before {
-      background-image: url(../images/facebook.svg);
-    }
-  }
+  width: 25%;
+  height: 100%;
+  padding: 25px 0;
+  margin: 0 auto ;
 }
+
+.btn-CTA {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: solid 1px black;
+  background-color: white;
+  letter-spacing: 0.15em;
+  color: black;
+}
+
+.btn-CTA-Text {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+.btn-CTA:hover {
+  color: white;
+  // background-image: url(../images/ULOCO8.png);
+  background-color: gray;
+}
+
+// ------------------------------------
 
 .glossary{
   @extend .content-width;
