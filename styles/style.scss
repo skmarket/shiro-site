@@ -1,7 +1,6 @@
 @import 'modules/variables';
-// @import 'modules/mixin';
-// @import 'modules/appear';
-// @import 'modules/button';
+@import 'modules/mixin';
+@import 'modules/appear';
 @import 'modules/hero-slider';
 @import 'modules/text-animation';
 @import 'modules/image-slide';
@@ -17,8 +16,8 @@
   @import "breakpoints/960up";
 }
 
-@media (min-width: 1280px) {
-  @import "breakpoints/1280up";
-}
+// @media (min-width: 1280px) {
+//   @import "breakpoints/1280up";
+// }
 
 

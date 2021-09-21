@@ -16,6 +16,7 @@
       <div id="container">
         <div class="mobile-menu__cover"></div>
         <div class="nav-trigger"></div>
+
         <header class="header">
           <div class="header__inner appear up">
             <div class="logo item">
@@ -27,7 +28,7 @@
               <ul class="header__ul">
                 <li class="header__li item"><a href="oshiro-menu.html">図鑑</a></li>
                 <li class="header__li item"><a href="glossary-menu.html">用語解説</a></li>
-                <li class="header__li item"><a href="#">おしろ図鑑とは</a></li>
+                <li class="header__li item"><a href="site-introduction.html">おしろ図鑑とは</a></li>
               </ul>
             </nav>
             <button class="mobile-menu__btn">
@@ -37,28 +38,53 @@
             </button>
           </div>
         </header>
+
         <div id="content">
           <div class="hero">
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <!-- <div class="hero__title">Enjoy Rich</div> -->
+                  <div class="hero__title">城を楽しむ</div>
                   <img src="images/matsumoto.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <!-- <div class="hero__title">Fantastic</div> -->
+                  <div class="hero__title">城を知る</div>
                   <img src="images/inuyama.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <!-- <div class="hero__title">Experience</div> -->
+                  <div class="hero__title">城を楽しむ</div>
                   <img src="images/maruoka.jpg" alt="" />
                 </div>
               </div>
             </div>
           </div>
+
           <div id="main-content">
 
             <main>
+              <section class="introduction"> 
+                <div>
+                  <h2 class="introduction-title tween-animate-title">城とは</h2>
+                  <p class="introduction-article ">主に近代以前の軍事的な防衛施設を呼ぶ。戦闘拠点であるとともに食糧や武器や資金の備蓄場所でもある。主要な城は、為政者や指揮官の住居であり、政治や情報の拠点であった。</p>
+
+                  <div class="btn introduction-btn">
+                    <a href="oshiro-introduction.html" class="btn-CTA">
+                     <p class="btn-CTA-Text">詳細</p>
+                    </a>
+                  </div>
+
+                  <h2 class="introduction-title  tween-animate-title">おしろ図鑑とは</h2>
+                  <p class="introduction-article ">現存する12のお城の紹介をしています。サイトを通じてお城の情報や歴史をより深く知っていただいたり、お城めぐりに役立てていただけることを目指します。</p>
+
+                </div>
+
+                <div class="btn introduction-btn">
+                  <a href="site-introduction.html" class="btn-CTA">
+                   <p class="btn-CTA-Text">詳細</p>
+                  </a>
+                </div>
+              </section>
+
               <section class="oshiro">
                 <div>
                   <h2 class="main-title tween-animate-title">図鑑</h2>
@@ -71,17 +97,18 @@
                         class="bg-img-zoom img-bg50"
                         style="background-image: url(images/matsumoto.jpg)"
                       ></div>
-                      <a class="oshiro-link" href="matsumoto.html"></a>
+                      <a class="oshiro-link" href="oshiro/matsumoto.html"></a>
                     </div>
                     <p class="oshiro__title">松本城</p>
                   </div>
+
                   <div class="oshiro__item">
                     <div class="cover-slide hover-darken">
                       <div
                         class="bg-img-zoom img-bg50"
                         style="background-image: url(images/inuyama.jpg)"
                       ></div>
-                      <a class="oshiro-link" href="matsumoto.html"></a>
+                      <a class="oshiro-link" href="oshiro/inuyama.html"></a>
                     </div>
                     <p class="oshiro__title">犬山城</p>
                   </div>
@@ -91,7 +118,7 @@
                         class="bg-img-zoom img-bg50"
                         style="background-image: url(images/hikone.jpg)"
                       ></div>
-                      <a class="oshiro-link" href="matsumoto.html"></a>
+                      <a class="oshiro-link" href="oshiro/hikone.html"></a>
                     </div>
                     <p class="oshiro__title">彦根城</p>
                   </div>
@@ -101,7 +128,7 @@
                         class="bg-img-zoom img-bg50"
                         style="background-image: url(images/matue.jpg)"
                       ></div>
-                      <a class="oshiro-link" href="matsumoto.html"></a>
+                      <a class="oshiro-link" href="oshiro/matsue.html"></a>
                     </div>
                     <p class="oshiro__title">松江城</p>
                   </div>
@@ -111,7 +138,7 @@
                         class="bg-img-zoom img-bg50"
                         style="background-image: url(images/himeji.jpg)"
                       ></div>
-                      <a class="oshiro-link" href="matsumoto.html"></a>
+                      <a class="oshiro-link" href="oshiro/himeji.html"></a>
                     </div>
                     <p class="oshiro__title">姫路城</p>
                   </div>
@@ -119,9 +146,9 @@
                     <div class="cover-slide hover-darken">
                       <div
                         class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/kouti.jpg)"
+                        style="background-image: url(images/kochi.jpg)"
                       ></div>
-                      <a class="oshiro-link" href="matsumoto.html"></a>
+                      <a class="oshiro-link" href="oshiro/kochi.html"></a>
                     </div>
                     <p class="oshiro__title">高知城</p>
                   </div>
@@ -142,23 +169,23 @@
                 </div>
                 <div class="btn-container">
                   <div class="Inner">
-                    <a href="tensyu.html" class="Inner-CTA"><span></span>
-                      <p class="Inner-CTA-Text">天守・櫓</p>
+                    <a href="glossary/nawabari.html" class="Inner-CTA"><span></span>
+                      <p class="Inner-CTA-Text">縄張</p>
                     </a> 
                   </div>
                   <div class="Inner">
-                    <a href="tensyu.html" class="Inner-CTA"><span></span>
+                    <a href="glossary/ishigaki.html" class="Inner-CTA"><span></span>
                       <p class="Inner-CTA-Text">石垣</p>
                     </a> 
                   </div>
                   <div class="Inner">
-                    <a href="tensyu.html" class="Inner-CTA"><span></span>
-                      <p class="Inner-CTA-Text">防御構造</p>
+                    <a href="glossary/koguchi.html" class="Inner-CTA"><span></span>
+                      <p class="Inner-CTA-Text">虎口</p>
                     </a> 
                   </div>
                   <div class="Inner">
-                    <a href="tensyu.html" class="Inner-CTA"><span></span>
-                      <p class="Inner-CTA-Text">縄張り</p>
+                    <a href="glossary/hori.html" class="Inner-CTA"><span></span>
+                      <p class="Inner-CTA-Text">堀</p>
                     </a> 
                   </div>
                 </div>
@@ -171,6 +198,7 @@
             </main>
           </div>
         </div>
+
         <footer class="footer appear up">
           <div class="logo item">
             <img src="images/oshirologo.svg" alt="" class="logo__img" />
@@ -180,7 +208,7 @@
             <ul class="footer__ul">
               <li class="footer__li item"><a href="oshiro-menu.html">図鑑</a></li>
               <li class="footer__li item"><a href="glossary-menu.html">用語解説</a></li>
-              <li class="footer__li item"><a href="#">おしろ図鑑とは</a></li>
+              <li class="footer__li item"><a href="site-introduction.html">おしろ図鑑とは</a></li>
               <li class="footer__li item"><a href="#">サイトマップ</a></li>
             </ul>
             <div class="footer__copyright item">
@@ -189,6 +217,7 @@
           </nav>
         </footer>
       </div>
+
       <nav class="mobile-menu">
         <div class="logo">
           <img src="images/oshirologo.svg" alt="" class="logo__img" />
@@ -202,18 +231,21 @@
               <!-- <span class="sub-title">サービスについて</span> -->
             </a>
           </li>
+          
           <li class="mobile-menu__item">
             <a class="mobile-menu__link" href="glossary-menu.html">
               <span class="main-title">用語解説</span>
               <!-- <span class="sub-title">私たちについて</span> -->
             </a>
           </li>
+
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="site-introduction.html">
               <span class="main-title">おしろ図鑑とは</span>
               <!-- <span class="sub-title">コンタクト方法</span> -->
             </a>
           </li>
+
         </ul>
       </nav>
     </div>

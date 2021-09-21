@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>おしろのずかん</title>
     <meta name="description" content="This site is a test site.">
-    <script src="scripts/vendors/pace.js"></script>
-    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <script src="../scripts/vendors/pace.js"></script>
+    <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="../styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
     <div id="global-container">
@@ -19,15 +19,15 @@
         <header class="header">
           <div class="header__inner appear up">
             <div class="logo item">
-              <img src="images/oshirologo.svg" alt="" class="logo__img" />
-              <span class="logo__stay"><a href="index.html">おしろ図鑑</a></span>
+              <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+              <span class="logo__stay"><a href="../index.html">おしろ図鑑</a></span>
               <!-- <span class="logo__world">World</span> -->
             </div>
             <nav class="header__nav">
               <ul class="header__ul">
-                <li class="header__li item"><a href="oshiro-menu.html">図鑑</a></li>
-                <li class="header__li item"><a href="glossary-menu.html">用語解説</a></li>
-                <li class="header__li item"><a href="#">おしろ図鑑とは</a></li>
+                <li class="header__li item"><a href="../oshiro-menu.html">図鑑</a></li>
+                <li class="header__li item"><a href="../glossary-menu.html">用語解説</a></li>
+                <li class="header__li item"><a href="../site-introduction.html">おしろ図鑑とは</a></li>
               </ul>
             </nav>
             <button class="mobile-menu__btn">
@@ -37,6 +37,7 @@
             </button>
           </div>
         </header>
+
         <div id="content">
           <div class="oshiro-title">
             松本城
@@ -46,21 +47,17 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <!-- <div class="hero__title">Enjoy Rich</div> -->
-                  <img src="images/matsumoto.jpg" alt="" />
+                  <img src="../images/matsumoto.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
                   <!-- <div class="hero__title">Fantastic</div> -->
-                  <img src="images/inuyama.jpg" alt="" />
+                  <img src="../images/inuyama.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
                   <!-- <div class="hero__title">Experience</div> -->
-                  <img src="images/maruoka.jpg" alt="" />
+                  <img src="../images/maruoka.jpg" alt="" />
                 </div>
               </div>
-              <!-- <div class="hero__footer">
-                <img class="hero__downarrow" src="images/arrow.svg" />
-                <span class="hero__scrolltext">scroll</span>
-              </div> -->
             </div>
           </div>
           <div id="main-content">
@@ -125,14 +122,14 @@
         </div>
         <footer class="footer appear up">
           <div class="logo item">
-            <img src="images/logo.svg" alt="" class="logo__img" />
+            <img src="../images/oshirologo.svg" alt="" class="logo__img" />
             <span class="logo__stay">おしろ図鑑</span>
           </div>
           <nav class="footer__nav">
             <ul class="footer__ul">
-              <li class="footer__li item"><a href="#">ずかん</a></li>
-              <li class="footer__li item"><a href="#">用語解説</a></li>
-              <li class="footer__li item"><a href="#">おしろ図鑑とは</a></li>
+              <li class="footer__li item"><a href="../oshiro-menu.html">図鑑</a></li>
+              <li class="footer__li item"><a href="../glossary-menu.html">用語解説</a></li>
+              <li class="footer__li item"><a href="../oshiro-introduction.html">おしろ図鑑とは</a></li>
               <li class="footer__li item"><a href="#">サイトマップ</a></li>
             </ul>
             <div class="footer__copyright item">
@@ -141,41 +138,45 @@
           </nav>
         </footer>
       </div>
+
       <nav class="mobile-menu">
         <div class="logo">
-          <img src="images/oshirologo.svg" alt="" class="logo__img" />
-          <span class="logo__stay">おしろ図鑑</span>
+          <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+          <span class="logo__stay mobile-logo__stay">おしろ図鑑</span>
           <!-- <span class="logo__world">World</span> -->
         </div>
         <ul class="mobile-menu__main">
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="../oshiro-menu.html">
               <span class="main-title">図鑑</span>
               <!-- <span class="sub-title">サービスについて</span> -->
             </a>
           </li>
+          
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="../glossary-menu.html">
               <span class="main-title">用語解説</span>
               <!-- <span class="sub-title">私たちについて</span> -->
             </a>
           </li>
+
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="../site-introduction.html">
               <span class="main-title">おしろ図鑑とは</span>
               <!-- <span class="sub-title">コンタクト方法</span> -->
             </a>
           </li>
+
         </ul>
       </nav>
     </div>
-    <script src="scripts/vendors/swiper.min.js"></script>
-    <script src="scripts/vendors/TweenMax.min.js"></script>
-    <script src="scripts/vendors/scroll-polyfill.js"></script>
-    <script src="scripts/libs/scroll.js"></script>
-    <script src="scripts/libs/text-animation.js"></script>
-    <script src="scripts/libs/hero-slider.js"></script>
-    <script src="scripts/libs/mobile-menu.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="../scripts/vendors/swiper.min.js"></script>
+    <script src="../scripts/vendors/TweenMax.min.js"></script>
+    <script src="../scripts/vendors/scroll-polyfill.js"></script>
+    <script src="../scripts/libs/scroll.js"></script>
+    <script src="../scripts/libs/text-animation.js"></script>
+    <script src="../scripts/libs/hero-slider.js"></script>
+    <script src="../scripts/libs/mobile-menu.js"></script>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
