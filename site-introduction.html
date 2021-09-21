@@ -18,7 +18,8 @@
       <div id="container">
         <div class="mobile-menu__cover"></div>
         <div class="nav-trigger"></div>
-        <header class="header">
+
+        <header class="header triggered">
           <div class="header__inner appear up">
             <div class="logo item">
               <img src="images/oshirologo.svg" alt="" class="logo__img" />
@@ -27,9 +28,9 @@
             </div>
             <nav class="header__nav">
               <ul class="header__ul">
-                <li class="header__li item"><a href="#">図鑑</a></li>
-                <li class="header__li item"><a href="#">用語解説</a></li>
-                <li class="header__li item"><a href="#">おしろ図鑑とは</a></li>
+                <li class="header__li item"><a href="oshiro-menu.html">図鑑</a></li>
+                <li class="header__li item"><a href="glossary-menu.html">用語解説</a></li>
+                <li class="header__li item"><a href="site-introduction.html">おしろ図鑑とは</a></li>
               </ul>
             </nav>
             <button class="mobile-menu__btn">
@@ -39,6 +40,7 @@
             </button>
           </div>
         </header>
+
         <div id="content">
 
           <div id="main-content">
@@ -48,34 +50,54 @@
 
               <section class="article">
                 <div>
-                  <h2 class="main-title glossary-title tween-animate-title">天守・櫓</h2>
-                  <div>
-                    <h3>天守・櫓とは</h3>
-                    <p>aiueoaiueoaiueoaieuoaieu</p>
+                  <h2 class="main-title glossary-title tween-animate-title">おしろ図鑑とは</h2>
+                  
+                  <div class="glossary-article">
+                    <div class="glossary">
+                      <p>
+                        おしろ図鑑は、現存するお城を紹介するサイトです。
+                        <br>
+                        <br>
+                        日本に現存する天守を持つお城は12基あります。
+                        <br>
+                        <br>
+                        「現存天守」とは、江戸時代までに建てられ、修復されながら現在まで残っている天守のことです。
+                        <br>
+                        <br>
+                        安土城以降、江戸時代までに数百基の天守が建てられたといいますが、現在はたったの12基しか残っていません。
+                        <br>
+                        <br>
+                        江戸時代の「一国一城令」と「武家諸法度」や明治時代の「廃城令」、第二次世界大戦によって、その多くが失われてしまいました。
+                        <br>
+                        <br>
+                        そんな、貴重なお城を紹介していければと思います。
+
+
+                      </p>
+                    </div>
+                    <div class="btn">
+                      <a href="glossary-menu.html" class="btn-CTA ">
+                       <p class="btn-CTA-Text">一覧</p>
+                      </a>
+                    </div>
                   </div>
-                  <div>
-                    <h3>天守・櫓の種類</h3>
-                    <p>aiueoaiueoaiueoaieuoaieu</p>
-                  </div>
-                  <div>
-                    <h3>天守・櫓に関して</h3>
-                    <p>aiueoaiueoaiueoaieuoaieu</p>
-                  </div>
+
                 </div>
               </section>
             </main>
           </div>
         </div>
+
         <footer class="footer appear up">
           <div class="logo item">
-            <img src="images/logo.svg" alt="" class="logo__img" />
+            <img src="images/oshirologo.svg" alt="" class="logo__img" />
             <span class="logo__stay">おしろ図鑑</span>
           </div>
           <nav class="footer__nav">
             <ul class="footer__ul">
-              <li class="footer__li item"><a href="#">図鑑</a></li>
-              <li class="footer__li item"><a href="#">用語解説</a></li>
-              <li class="footer__li item"><a href="#">おしろ図鑑とは</a></li>
+              <li class="footer__li item"><a href="oshiro-menu.html">図鑑</a></li>
+              <li class="footer__li item"><a href="glossary-menu.html">用語解説</a></li>
+              <li class="footer__li item"><a href="site-introduction.html">おしろ図鑑とは</a></li>
               <li class="footer__li item"><a href="#">サイトマップ</a></li>
             </ul>
             <div class="footer__copyright item">
@@ -84,39 +106,39 @@
           </nav>
         </footer>
       </div>
+
       <nav class="mobile-menu">
         <div class="logo">
           <img src="images/oshirologo.svg" alt="" class="logo__img" />
-          <span class="logo__stay">おしろ図鑑</span>
+          <span class="logo__stay mobile-logo__stay">おしろ図鑑</span>
           <!-- <span class="logo__world">World</span> -->
         </div>
         <ul class="mobile-menu__main">
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="oshiro-menu.html">
               <span class="main-title">図鑑</span>
               <!-- <span class="sub-title">サービスについて</span> -->
             </a>
           </li>
+          
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="glossary-menu.html">
               <span class="main-title">用語解説</span>
               <!-- <span class="sub-title">私たちについて</span> -->
             </a>
           </li>
+
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="site-introduction.html">
               <span class="main-title">おしろ図鑑とは</span>
               <!-- <span class="sub-title">コンタクト方法</span> -->
             </a>
           </li>
+
         </ul>
       </nav>
     </div>
     <script src="scripts/vendors/swiper.min.js"></script>
-    <script src="scripts/vendors/TweenMax.min.js"></script>
-    <script src="scripts/vendors/scroll-polyfill.js"></script>
-    <script src="scripts/libs/scroll.js"></script>
-    <script src="scripts/libs/text-animation.js"></script>
     <script src="scripts/libs/hero-slider.js"></script>
     <script src="scripts/libs/mobile-menu.js"></script>
     <script src="scripts/main.js"></script>

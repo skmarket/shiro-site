@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>おしろのずかん</title>
+    <meta name="description" content="This site is a test site.">
+    <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="../styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <div class="nav-trigger"></div>
+        <header class="header triggered">
+          <div class="header__inner appear up">
+            <div class="logo item">
+              <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+              <span class="logo__stay"><a href="../index.html">おしろ図鑑</a></span>
+              <!-- <span class="logo__world">World</span> -->
+            </div>
+            <nav class="header__nav">
+              <ul class="header__ul">
+                <li class="header__li item"><a href="../oshiro-menu.html">図鑑</a></li>
+                <li class="header__li item"><a href="../glossary-menu.html">用語解説</a></li>
+                <li class="header__li item"><a href="../site-introduction.html">おしろ図鑑とは</a></li>
+              </ul>
+            </nav>
+            <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+
+        <div id="content">
+          <div class="oshiro-title">
+            松江城
+          </div>
+          <div class="hero">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- <div class="hero__title"></div> -->
+                  <img src="../images/matsue.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <!-- <div class="hero__title"></div> -->
+                  <img src="../images/inuyama.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <!-- <div class="hero__title">Experience</div> -->
+                  <img src="../images/maruoka.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="main-content">
+            <main>
+              <section class="article">
+                <div class="explain article-content">
+                  <div class="explain__title article-title">
+                    説明
+                  </div>
+                  <div class="explain__content">
+                    1607年（慶長12年） 末次城のあった亀田山に築城を開始。江戸時代には松江藩の政庁として、出雲地方の政治経済の中心であった。
+                    <br>
+                    明治時代初頭に廃城令によって松江城は陸軍省所管となり城内の建物は全て解体され売却される予定だったが、地元の有志によって天守閣だけは買い戻されて解体を免れた。近年、二の丸の櫓が復元されるなど往年の姿を取り戻しつつある。
+                    <br>
+                    構造は、本丸を中心に据え、北に北の丸、南に二の丸上段、東に二の丸下段、二の丸上段のさらに南には出城のように独立した三の丸が配されている。城の中心となる御殿は二の丸上段に置かれていたが、敷地が狭いため三の丸にも御殿が建てられ藩主は主にこちらで生活していたようだ。大手門は石垣のみが残るが巨大な枡形を形成しており、江戸城や大阪城に匹敵する規模である。現在、北の丸には神社、三の丸には島根県庁が建っている。
+                    
+                  </div>
+                </div>
+                <div class="data article-content">
+                  <div class="data__title article-title ">
+                    データ
+                  </div>
+                  <div class="data__content">
+                    <table>
+                          <tr>
+                              <th>築城年</th>
+                              <td data-label="内容" class="txt">1611年（慶長16年）</td>
+                          </tr>
+                          <tr>
+                              <th>主な城主</th>
+                              <td data-label="内容" class="txt">	堀尾氏、京極氏、松平氏</td>
+                          </tr>
+                          <tr>
+                              <th>天守構造</th>
+                              <td data-label="内容" class="txt">	複合式望楼型 4重5階地下1階（木造 1607年築 現存）</td>
+                          </tr>
+                          <tr>
+                              <th>別名</th>
+                              <td data-label="内容" class="txt">千鳥城</td>
+                          </tr>
+                          <tr>
+                              <th>指定文化財</th>
+                              <td data-label="内容" class="txt">国宝（天守）</td>
+                          </tr>
+                  </table>   
+                  </div>
+                </div>
+                <div class="map article-content">
+                  <div class="map__title article-title">
+                   マップ
+                  </div>
+                  <div class="map__content">
+                    JR篠ノ井線「松本駅」下車　徒歩約20分
+                    <div class="gmap">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.034619636244!2d137.9666787152743!3d36.23865298006806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d0e850a9a5999%3A0x902d0e20fabcf654!2z5p2-5pys5Z-O!5e0!3m2!1sja!2sjp!4v1631001111678!5m2!1sja!2sjp"  allowfullscreen="" loading="lazy" ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+            <aside class="side right">
+              <!-- <div class="side__inner">
+                <span class="tween-animate-title">&copy;Code Mafia</span>
+              </div> -->
+            </aside>
+          </div>
+        </div>
+        <footer class="footer appear up">
+          <div class="logo item">
+            <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+            <span class="logo__stay">おしろ図鑑</span>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__li item"><a href="../oshiro-menu.html">図鑑</a></li>
+              <li class="footer__li item"><a href="../glossary-menu.html">用語解説</a></li>
+              <li class="footer__li item"><a href="../oshiro-introduction.html">おしろ図鑑とは</a></li>
+              <li class="footer__li item"><a href="#">サイトマップ</a></li>
+            </ul>
+            <div class="footer__copyright item">
+              &copy; おしろ図鑑
+            </div>
+          </nav>
+        </footer>
+      </div>
+
+      <nav class="mobile-menu">
+        <div class="logo">
+          <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+          <span class="logo__stay mobile-logo__stay">おしろ図鑑</span>
+          <!-- <span class="logo__world">World</span> -->
+        </div>
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="../oshiro-menu.html">
+              <span class="main-title">図鑑</span>
+              <!-- <span class="sub-title">サービスについて</span> -->
+            </a>
+          </li>
+          
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="../glossary-menu.html">
+              <span class="main-title">用語解説</span>
+              <!-- <span class="sub-title">私たちについて</span> -->
+            </a>
+          </li>
+
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="../site-introduction.html">
+              <span class="main-title">おしろ図鑑とは</span>
+              <!-- <span class="sub-title">コンタクト方法</span> -->
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <script src="../scripts/vendors/swiper.min.js"></script>
+    <script src="../scripts/libs/hero-slider.js"></script>
+    <script src="../scripts/libs/mobile-menu.js"></script>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>

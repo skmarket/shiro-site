@@ -1,0 +1,18 @@
+.glossary-title{
+  padding-top: 160px;
+  &:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 75%;
+    background: -webkit-linear-gradient(to right, rgb(69, 28, 204), transparent);
+    background: linear-gradient(to right, rgb(25, 17, 131), transparent);
+  }
+}
+
+.glossary-article{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: url(../images/white.jpg);
+  padding:5%;
+}

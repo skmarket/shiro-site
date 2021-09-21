@@ -1,24 +1,15 @@
-@import 'modules/variables';
-// @import 'modules/mixin';
-// @import 'modules/appear';
-// @import 'modules/button';
+@import "page/base";
 @import 'modules/hero-slider';
-@import 'modules/text-animation';
-@import 'modules/image-slide';
 @import 'modules/mobile-menu';
-@import "breakpoints/base";
-
+@import 'page/oshiro-article';
+@import 'page/glossary-article';
 
 @media (min-width: 600px) {
-  @import "breakpoints/600up";
+  @import "page/600up";
 }
-
 @media (min-width: 960px) {
-  @import "breakpoints/960up";
+  @import "page/960up";
 }
 
-@media (min-width: 1280px) {
-  @import "breakpoints/1280up";
-}
 
 

@@ -6,28 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>おしろのずかん</title>
     <meta name="description" content="This site is a test site.">
-    <script src="scripts/vendors/pace.js"></script>
-    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="../styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
     <div id="global-container">
       <div id="container">
         <div class="mobile-menu__cover"></div>
         <div class="nav-trigger"></div>
-        <header class="header">
+        <header class="header triggered">
           <div class="header__inner appear up">
             <div class="logo item">
-              <img src="images/oshirologo.svg" alt="" class="logo__img" />
-              <span class="logo__stay"><a href="index.html">おしろ図鑑</a></span>
+              <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+              <span class="logo__stay"><a href="../index.html">おしろ図鑑</a></span>
               <!-- <span class="logo__world">World</span> -->
             </div>
             <nav class="header__nav">
               <ul class="header__ul">
-                <li class="header__li item"><a href="oshiro-menu.html">図鑑</a></li>
-                <li class="header__li item"><a href="glossary-menu.html">用語解説</a></li>
-                <li class="header__li item"><a href="#">おしろ図鑑とは</a></li>
+                <li class="header__li item"><a href="../oshiro-menu.html">図鑑</a></li>
+                <li class="header__li item"><a href="../glossary-menu.html">用語解説</a></li>
+                <li class="header__li item"><a href="../site-introduction.html">おしろ図鑑とは</a></li>
               </ul>
             </nav>
             <button class="mobile-menu__btn">
@@ -37,6 +36,7 @@
             </button>
           </div>
         </header>
+
         <div id="content">
           <div class="oshiro-title">
             松本城
@@ -45,22 +45,18 @@
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <!-- <div class="hero__title">Enjoy Rich</div> -->
-                  <img src="images/matsumoto.jpg" alt="" />
+                  <!-- <div class="hero__title"></div> -->
+                  <img src="../images/matsumoto.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <!-- <div class="hero__title">Fantastic</div> -->
-                  <img src="images/inuyama.jpg" alt="" />
+                  <!-- <div class="hero__title"></div> -->
+                  <img src="../images/inuyama.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <!-- <div class="hero__title">Experience</div> -->
-                  <img src="images/maruoka.jpg" alt="" />
+                  <!-- <div class="hero__title"></div> -->
+                  <img src="../images/maruoka.jpg" alt="" />
                 </div>
               </div>
-              <!-- <div class="hero__footer">
-                <img class="hero__downarrow" src="images/arrow.svg" />
-                <span class="hero__scrolltext">scroll</span>
-              </div> -->
             </div>
           </div>
           <div id="main-content">
@@ -71,7 +67,13 @@
                     説明
                   </div>
                   <div class="explain__content">
-                    aiueoaiueoaiueoiuraioueiruaoeiruaouiroiuroaeiuroairuoeuraoiruewiorfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+                    戦国時代の永正年間（1504-1520年）に、信濃守護家小笠原氏（府中小笠原氏）が林城を築城し、その支城の一つとして深志城が築城されたのが始まりといわれている。
+                    <br>
+                    1590年（天正18年）の豊臣秀吉による小田原征伐の結果、徳川家の関東移封が行われ当時の松本城主小笠原秀政も下総古河へと移った。代わりに石川数正が入城し、石川数正とその子康長が、天守を始め、城郭・城下町の整備を行う。
+                    <br>
+                    その後、大久保長安事件により石川康長が改易となり、小笠原秀政が再び入城。大坂の陣以後は、松平康長や水野家などの松本藩の藩庁として機能した。水野家の後は松平康長にはじまる戸田松平家（戸田氏の嫡流）が代々居城とした。
+                    <br>
+                    典型的な平城。本丸・二の丸・三の丸ともほぼ方形に整地されている。南西部に天守を置いた本丸を、北部を欠いた凹型の二の丸が囲み、さらにそれを四方から三の丸が囲むという、梯郭式に輪郭式を加えた縄張りである。これらは全て水堀により隔てられている。現存12天守の中では唯一の平城。
                   </div>
                 </div>
                 <div class="data article-content">
@@ -81,24 +83,26 @@
                   <div class="data__content">
                     <table>
                           <tr>
-                              <th>築年</th>
-                              <td data-label="内容" class="txt">○○年</td>
+                              <th>築城年</th>
+                              <td data-label="内容" class="txt">	1504年（永正元年）</td>
                           </tr>
                           <tr>
-                              <th>城主</th>
-                              <td data-label="内容" class="txt">○○</td>
+                              <th>主な城主</th>
+                              <td data-label="内容" class="txt">山川氏、石川氏、松平氏
+                                堀田氏、水野氏、松平氏（戸田氏）</td>
                           </tr>
                           <tr>
-                              <th>建築様式</th>
-                              <td data-label="内容" class="txt">○○</td>
+                              <th>天守構造</th>
+                              <td data-label="内容" class="txt">	連結式望楼型（1593年頃か）
+                                複合連結式層塔型5重6階（1633年改）</td>
                           </tr>
                           <tr>
-                              <th>建築様式</th>
-                              <td data-label="内容" class="txt">○○</td>
+                              <th>別名</th>
+                              <td data-label="内容" class="txt">深志城、烏城（俗称）</td>
                           </tr>
                           <tr>
-                              <th>建築様式</th>
-                              <td data-label="内容" class="txt">○○</td>
+                              <th>指定文化財</th>
+                              <td data-label="内容" class="txt">国宝（天守）</td>
                           </tr>
                   </table>   
                   </div>
@@ -125,14 +129,14 @@
         </div>
         <footer class="footer appear up">
           <div class="logo item">
-            <img src="images/logo.svg" alt="" class="logo__img" />
+            <img src="../images/oshirologo.svg" alt="" class="logo__img" />
             <span class="logo__stay">おしろ図鑑</span>
           </div>
           <nav class="footer__nav">
             <ul class="footer__ul">
-              <li class="footer__li item"><a href="#">ずかん</a></li>
-              <li class="footer__li item"><a href="#">用語解説</a></li>
-              <li class="footer__li item"><a href="#">おしろ図鑑とは</a></li>
+              <li class="footer__li item"><a href="../oshiro-menu.html">図鑑</a></li>
+              <li class="footer__li item"><a href="../glossary-menu.html">用語解説</a></li>
+              <li class="footer__li item"><a href="../oshiro-introduction.html">おしろ図鑑とは</a></li>
               <li class="footer__li item"><a href="#">サイトマップ</a></li>
             </ul>
             <div class="footer__copyright item">
@@ -141,41 +145,41 @@
           </nav>
         </footer>
       </div>
+
       <nav class="mobile-menu">
         <div class="logo">
-          <img src="images/oshirologo.svg" alt="" class="logo__img" />
-          <span class="logo__stay">おしろ図鑑</span>
+          <img src="../images/oshirologo.svg" alt="" class="logo__img" />
+          <span class="logo__stay mobile-logo__stay">おしろ図鑑</span>
           <!-- <span class="logo__world">World</span> -->
         </div>
         <ul class="mobile-menu__main">
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="../oshiro-menu.html">
               <span class="main-title">図鑑</span>
               <!-- <span class="sub-title">サービスについて</span> -->
             </a>
           </li>
+          
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="../glossary-menu.html">
               <span class="main-title">用語解説</span>
               <!-- <span class="sub-title">私たちについて</span> -->
             </a>
           </li>
+
           <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
+            <a class="mobile-menu__link" href="../site-introduction.html">
               <span class="main-title">おしろ図鑑とは</span>
               <!-- <span class="sub-title">コンタクト方法</span> -->
             </a>
           </li>
+
         </ul>
       </nav>
     </div>
-    <script src="scripts/vendors/swiper.min.js"></script>
-    <script src="scripts/vendors/TweenMax.min.js"></script>
-    <script src="scripts/vendors/scroll-polyfill.js"></script>
-    <script src="scripts/libs/scroll.js"></script>
-    <script src="scripts/libs/text-animation.js"></script>
-    <script src="scripts/libs/hero-slider.js"></script>
-    <script src="scripts/libs/mobile-menu.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="../scripts/vendors/swiper.min.js"></script>
+    <script src="../scripts/libs/hero-slider.js"></script>
+    <script src="../scripts/libs/mobile-menu.js"></script>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
