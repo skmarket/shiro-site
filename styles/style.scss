@@ -3,6 +3,7 @@
 @import 'modules/mobile-menu';
 @import 'page/oshiro-article';
 @import 'page/glossary-article';
+@import 'modules/intersection-observer';
 
 @media (min-width: 600px) {
   @import "page/600up";
